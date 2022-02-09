@@ -1,0 +1,11 @@
+<section class="component-content">
+    <div id="crew-container">
+        <h4 class="crew-info">{{ crewRole }}</h4>
+        <h3 class="crew-info">{{ crewName }}</h3>
+        <p class="text crew-info">{{ crewBio }}</p>
+        <app-crew-nav (outputData)="getData($event)"></app-crew-nav>
+    </div>
+    <div>
+       <app-crew-picture [picture]="crewImage"></app-crew-picture>
+    </div>
+</section>

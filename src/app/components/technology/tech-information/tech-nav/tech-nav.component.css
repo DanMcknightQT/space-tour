@@ -1,0 +1,45 @@
+.circle{
+    background: transparent;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: thin solid white;
+}
+.circle:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.409);
+}
+.side-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 160px;
+    margin-right: 40px;
+}
+.tech-number{
+    text-align: center;
+}
+h4{
+    margin: 35px 0 0 0;
+}
+@media (max-width: 375px){
+    .circle{
+        background: transparent;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: thin solid white;
+    }
+    .side-menu{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-left: 80px;
+        margin-right: 0;
+    }
+    .tech-number{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+}
