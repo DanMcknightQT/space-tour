@@ -1,1 +1,16 @@
-<p>navbar works!</p>
+<div class="navContainer">
+    <ul class="navbarLinks">
+        <li class="navItem" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a href="" [routerLink]="['/home']" class="navlink">Home</a>
+        </li>
+        <li class="navItem" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a href="" [routerLink]="['/destinations']" class="navlink">Destination</a>
+        </li>
+        <li class="navItem" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a href="" [routerLink]="['/crew']" class="navlink">Crew</a>
+        </li>
+        <li class="navItem" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a href="" [routerLink]="['/technology']" class="navlink">Technology</a>
+        </li>
+    </ul>
+</div>
