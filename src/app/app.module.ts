@@ -8,6 +8,7 @@ import { DestinationsComponent } from './components/destinations/destinations.co
 import { CrewComponent } from './components/crew/crew.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     DestinationsComponent,
     CrewComponent,
     TechnologyComponent,
-    NavbarComponent
+    NavbarComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
