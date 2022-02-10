@@ -25,3 +25,28 @@
     opacity: 0.2;
     margin-right: 20px;
 }
+
+.planetList{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 34px;
+    width: 285px;
+    margin-left: 825px;
+    margin-bottom: 0px;
+}
+
+.planetListLink{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.planetListLink:hover{
+    border-bottom: solid 1px white;
+}
+
+.planetRender{
+    margin-top: 0px;
+}
