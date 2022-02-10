@@ -1,1 +1,6 @@
-object destructuring *
+- object destructuring *
+- take json file turn it into an object, unstringify it, 
+	destructure it, pass it in. you can save it as 
+	a regular object its only in json format for the 
+	purpose of giving us the data we dont have to 
+	keep it that way.
