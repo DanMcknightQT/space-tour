@@ -38,6 +38,10 @@
 
 .navItem{
     margin-right: 5px;
+    height: 96px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .navNumbers{

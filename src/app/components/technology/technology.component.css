@@ -1,0 +1,7 @@
+.backgroundImg{
+    background-image: url("../../../assets/technology/background-technology-desktop.jpg");
+    background-size: 100%;
+    background-size: cover;
+    width: 1440px;
+    height: 900px;
+}
