@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
+import { DestinationComponent } from './components/destination/destination.component';
+import { CrewComponent } from './components/crew/crew.component';
+import { TechnologyComponent } from './components/technology/technology.component';
 
 
 @NgModule({
@@ -13,7 +16,10 @@ import { HomeComponent } from './components/home/home.component';
     AppComponent,
     NavbarComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    DestinationComponent,
+    CrewComponent,
+    TechnologyComponent
   ],
   imports: [
     BrowserModule,
