@@ -5,3 +5,23 @@
     width: 1440px;
     height: 900px;
 }
+
+.headingFive{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 166px;
+    margin-top: 76px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opacity{
+    opacity: 0.2;
+    margin-right: 20px;
+}
