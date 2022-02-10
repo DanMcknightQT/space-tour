@@ -6,6 +6,8 @@
 
         <h5 class="headingFive"><span class="opacity">03</span>Space Launch 101</h5>
 
+        <div class="techContainer">
+
         <ul class="techList">
             <li class="techListItem"><button (click)="handleTechSelect('launchVehicle')" class="techListLink">1</button></li>
             <li class="techListItem"><button (click)="handleTechSelect('spacePort')" class="techListLink">2</button></li>
@@ -21,6 +23,8 @@
         </div>
         <div class="techRender" *ngIf="displayTech === 'spaceCapsule'">
             <app-space-capsule></app-space-capsule>
+        </div>
+
         </div>
 
     </div>
