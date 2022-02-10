@@ -9,6 +9,8 @@ import { CrewComponent } from './components/crew/crew.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
+import { HomedetailsComponent } from './components/homedetails/homedetails.component';
+import { ExplorebuttonComponent } from './components/explorebutton/explorebutton.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
     CrewComponent,
     TechnologyComponent,
     NavbarComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    HomedetailsComponent,
+    ExplorebuttonComponent
   ],
   imports: [
     BrowserModule,

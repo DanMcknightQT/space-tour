@@ -1,0 +1,27 @@
+.headingFive{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.headingOne{
+    font-size: 150px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bodyText{
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.homeDetails{
+    display: flex;
+    flex-direction: column;
+    height: 382px;
+    width: 450px;
+    margin-left: 165px;
+    color: white;
+    margin-top: 320px;
+}
