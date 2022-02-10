@@ -1,0 +1,38 @@
+.moonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moonInfoContainer{
+    height: 444px;
+    width: 401px;   
+}
+
+.heading2{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.bodytext{
+    color: white;
+    font-size: 18px;
+}
+
+.subText{
+    color: white;
+    font-size: 14px;
+}
+
+.statisticsNumbers{
+    color: white;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.statistics{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}

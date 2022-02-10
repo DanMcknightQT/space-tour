@@ -6,6 +6,27 @@
 
         <h5 class="headingFive"><span class="opacity">01</span>Pick your destination</h5>
 
+        <ul class="planetList">
+            <li class="planetListItem"><button (click)="handlePlanetSelect('moon')" class="planetListLink">Moon</button></li>
+            <li class="planetListItem"><button (click)="handlePlanetSelect('mars')" class="planetListLink">Mars</button></li>
+            <li class="planetListItem"><button (click)="handlePlanetSelect('europa')" class="planetListLink">Europa</button></li>
+            <li class="planetListItem"><button (click)="handlePlanetSelect('titan')" class="planetListLink">Titan</button></li>
+        </ul>
+        
+
+        <div class="planetRender" *ngIf="displayPlanet === 'moon'">
+            <app-moon></app-moon>
+        </div>
+        <div class="planetRender" *ngIf="displayPlanet === 'mars'">
+            <app-mars></app-mars>
+        </div>
+        <div class="planetRender" *ngIf="displayPlanet === 'europa'">
+            <app-europa></app-europa>
+        </div>
+        <div class="planetRender" *ngIf="displayPlanet === 'titan'">
+            <app-titan></app-titan>
+        </div>
+
     </div>
 
 </div>

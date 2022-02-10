@@ -12,4 +12,9 @@ export class DestinationsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  displayPlanet = 'moon';
+  handlePlanetSelect(planet: string){
+    this.displayPlanet = planet;
+  }
+
 }

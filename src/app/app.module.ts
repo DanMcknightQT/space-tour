@@ -11,6 +11,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { HomedetailsComponent } from './components/homedetails/homedetails.component';
 import { ExplorebuttonComponent } from './components/explorebutton/explorebutton.component';
+import { MoonComponent } from './components/destinations/moon/moon.component';
+import { MarsComponent } from './components/destinations/mars/mars.component';
+import { EuropaComponent } from './components/destinations/europa/europa.component';
+import { TitanComponent } from './components/destinations/titan/titan.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { ExplorebuttonComponent } from './components/explorebutton/explorebutton
     NavbarComponent,
     NotfoundComponent,
     HomedetailsComponent,
-    ExplorebuttonComponent
+    ExplorebuttonComponent,
+    MoonComponent,
+    MarsComponent,
+    EuropaComponent,
+    TitanComponent,
   ],
   imports: [
     BrowserModule,
