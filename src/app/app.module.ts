@@ -19,6 +19,9 @@ import { DouglashurleyComponent } from './components/crew/douglashurley/douglash
 import { MarkshuttleworthComponent } from './components/crew/markshuttleworth/markshuttleworth.component';
 import { VictorgloverComponent } from './components/crew/victorglover/victorglover.component';
 import { AnoushehansariComponent } from './components/crew/anoushehansari/anoushehansari.component';
+import { LaunchVehicleComponent } from './components/technology/launch-vehicle/launch-vehicle.component';
+import { SpacePortComponent } from './components/technology/space-port/space-port.component';
+import { SpaceCapsuleComponent } from './components/technology/space-capsule/space-capsule.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +42,9 @@ import { AnoushehansariComponent } from './components/crew/anoushehansari/anoush
     MarkshuttleworthComponent,
     VictorgloverComponent,
     AnoushehansariComponent,
+    LaunchVehicleComponent,
+    SpacePortComponent,
+    SpaceCapsuleComponent,
   ],
   imports: [
     BrowserModule,

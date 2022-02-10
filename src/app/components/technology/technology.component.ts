@@ -12,4 +12,9 @@ export class TechnologyComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  displayTech = 'launchVehicle';
+  handleTechSelect(tech: string){
+    this.displayTech = tech;
+  }
+
 }
