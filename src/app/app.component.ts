@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['../app/app.component.css']
+  styleUrls: ['./app.component.html']
 })
 export class AppComponent {
   title = 'space-tour';
