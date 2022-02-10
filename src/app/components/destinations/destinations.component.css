@@ -50,3 +50,7 @@
 .planetRender{
     margin-top: 0px;
 }
+
+.active{
+    border-bottom: 1px white solid;
+}
