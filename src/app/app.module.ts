@@ -9,6 +9,7 @@ import { CrewComponent } from './components/crew/crew.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { NoPageComponent } from './components/no-page/no-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
