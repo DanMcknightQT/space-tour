@@ -12,4 +12,9 @@ export class CrewComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  displayCrewmate = 'douglashurley';
+  handleCrewmateSelect(crewmate: string){
+    this.displayCrewmate = crewmate;
+  }
+
 }

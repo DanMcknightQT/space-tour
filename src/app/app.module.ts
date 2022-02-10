@@ -15,6 +15,10 @@ import { MoonComponent } from './components/destinations/moon/moon.component';
 import { MarsComponent } from './components/destinations/mars/mars.component';
 import { EuropaComponent } from './components/destinations/europa/europa.component';
 import { TitanComponent } from './components/destinations/titan/titan.component';
+import { DouglashurleyComponent } from './components/crew/douglashurley/douglashurley.component';
+import { MarkshuttleworthComponent } from './components/crew/markshuttleworth/markshuttleworth.component';
+import { VictorgloverComponent } from './components/crew/victorglover/victorglover.component';
+import { AnoushehansariComponent } from './components/crew/anoushehansari/anoushehansari.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +35,10 @@ import { TitanComponent } from './components/destinations/titan/titan.component'
     MarsComponent,
     EuropaComponent,
     TitanComponent,
+    DouglashurleyComponent,
+    MarkshuttleworthComponent,
+    VictorgloverComponent,
+    AnoushehansariComponent,
   ],
   imports: [
     BrowserModule,
