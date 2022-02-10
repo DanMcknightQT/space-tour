@@ -5,3 +5,9 @@
     width: 1440px;
     height: 900px;
 }
+
+.homeContentContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
