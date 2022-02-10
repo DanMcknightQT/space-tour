@@ -17,6 +17,7 @@
     color: white;
     font-size: 100px;
     margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 .bodytext{
@@ -31,6 +32,7 @@
     font-size: 14px;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 .statisticsNumbers{
@@ -38,6 +40,7 @@
     font-size: 28px;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 .statistics{
