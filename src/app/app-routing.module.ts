@@ -13,7 +13,8 @@ const routes: Routes = [
   {path: 'destination', component: DestinationComponent },
   {path: 'crew', component: CrewComponent},
   {path: 'technology', component: TechnologyComponent},
-  {path: '**', component: NoPageComponent}
+  {path: '404', component: NoPageComponent},
+  {path: '**', redirectTo: '/404'}
 
   
 ];
