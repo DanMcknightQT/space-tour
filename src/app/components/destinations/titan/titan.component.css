@@ -1,0 +1,50 @@
+.titanImg{
+    padding-top: 25px;
+}
+
+.titanContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titanInfoContainer{
+    height: 444px;
+    width: 401px; 
+    margin-top: 0px;  
+}
+
+.heading2{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.bodytext{
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px white solid;
+    padding-bottom: 53px;
+}
+
+.subText{
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.statisticsNumbers{
+    color: white;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.statistics{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
