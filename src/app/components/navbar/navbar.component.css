@@ -46,11 +46,16 @@
 
 .navNumbers{
     font-weight: bold;
+    margin-right: 8px;
 }
 
 .navItem a{
     color: white;
     text-decoration: none;
+}
+
+.navItem:hover{
+    border-bottom: 2px white solid;
 }
 
 .active{
