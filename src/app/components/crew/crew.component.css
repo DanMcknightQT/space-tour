@@ -25,3 +25,38 @@
     opacity: 0.2;
     margin-right: 20px;
 }
+
+.crewRender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crewListLink{
+    height: 15px;
+    width: 15px;
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    margin-right: 5px;
+    opacity: 0.4;
+}
+
+.crewListLink:hover{
+    height: 15px;
+    width: 15px;
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+.crewList{
+    margin-left: 166px;
+}
+
+.crewContainer{
+    display: flex;
+    flex-direction: column;
+}

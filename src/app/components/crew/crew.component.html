@@ -6,6 +6,7 @@
 
         <h5 class="headingFive"><span class="opacity">02</span>Meet your crew</h5>
 
+        <div class="crewContainer">
         <div class="crewRender" *ngIf="displayCrewmate === 'douglashurley'">
             <app-douglashurley></app-douglashurley>
         </div>
@@ -19,12 +20,13 @@
             <app-anoushehansari></app-anoushehansari>
         </div>
 
-        <ul class="crewList">
-            <li class="crewListItem"><button (click)="handleCrewmateSelect('douglashurley')" class="crewListLink"></button></li>
-            <li class="crewListItem"><button (click)="handleCrewmateSelect('markshuttleworth')" class="crewListLink"></button></li>
-            <li class="crewListItem"><button (click)="handleCrewmateSelect('victorglover')" class="crewListLink"></button></li>
-            <li class="crewListItem"><button (click)="handleCrewmateSelect('anoushehansari')" class="crewListLink"></button></li>
-        </ul>
+        <div class="crewList">
+            <button (click)="handleCrewmateSelect('douglashurley')" class="crewListLink"></button>
+            <button (click)="handleCrewmateSelect('markshuttleworth')" class="crewListLink"></button>
+            <button (click)="handleCrewmateSelect('victorglover')" class="crewListLink"></button>
+            <button (click)="handleCrewmateSelect('anoushehansari')" class="crewListLink"></button>
+        </div>
+        </div>
 
     </div>
 
