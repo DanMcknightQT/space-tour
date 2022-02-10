@@ -1,0 +1,54 @@
+.navbarLinks{
+    list-style-type: none;
+    display: flex;
+    padding-right: 6px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    height: 96px;
+    width: 830px;
+    grid-column: 3span4;
+}
+
+.starLogo{
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+}
+
+.navbarLine{
+    grid-column: 2span3;
+    grid-row: 1;
+    margin-left: 20px;
+    align-self: center;
+    z-index: 9;
+}
+
+
+.navContainer{
+    display: grid;
+    grid-template-columns: 48px 460px 13px 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 55px;
+    padding-top: 25px;
+    height: 96px;
+    width: 1385px;
+}
+
+.navItem{
+    margin-right: 5px;
+}
+
+.navNumbers{
+    font-weight: bold;
+}
+
+.navItem a{
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    border-bottom: 2px white solid;
+}
