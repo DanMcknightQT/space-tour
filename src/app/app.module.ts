@@ -9,6 +9,9 @@ import { HomeComponent } from './components/home/home.component';
 import { DestinationComponent } from './components/destination/destination.component';
 import { CrewComponent } from './components/crew/crew.component';
 import { TechnologyComponent } from './components/technology/technology.component';
+import { HomeInfoComponent } from './components/home-info/home-info.component';
+import { HomeBtnComponent } from './components/home-btn/home-btn.component';
+
 
 
 @NgModule({
@@ -19,7 +22,9 @@ import { TechnologyComponent } from './components/technology/technology.componen
     HomeComponent,
     DestinationComponent,
     CrewComponent,
-    TechnologyComponent
+    TechnologyComponent,
+    HomeInfoComponent,
+    HomeBtnComponent,
   ],
   imports: [
     BrowserModule,
