@@ -18,7 +18,6 @@ let data: any = {...JSONdata};
 data = Object.entries(data);
 
 data = data[3][1];
-//console.log(data)
 
 export let crewData = data.crew;
 export let destinationsData = data.destinations;
