@@ -2,3 +2,15 @@
     background-image: url("../../../assets/home/background-home-desktop.jpg");
     object-fit: cover;
 }
+.home-main{
+    margin-top: 15rem;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8vw;
+}
+.home-btn{
+    border: 1px solid white
+}
