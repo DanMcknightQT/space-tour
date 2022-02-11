@@ -1,6 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap");
 
+:root {
+    --black: #0b0d17;
+    --gray: #d0d6f9;
+    --white: #ffffff;
+    --Belle: "Bellefair";
+    --Barlow: "Barlow Condensed";
+  }
 
-*{
-    margin: 0 0 0 0;
-}
+  * {
+    box-sizing: border-box;
+    list-style: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    color: var(--gray);
+  }
+  main {
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
