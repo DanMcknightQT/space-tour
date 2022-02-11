@@ -12,10 +12,18 @@
     </div>
     <nav class="header-nav">
         <ul>
-            <li><a routerLink="/home"> 00 HOME</a></li>
-            <li><a routerLink="/destination">01 DESTINATION</a></li>
-            <li><a routerLink="/crew">02 CREW</a></li>
-            <li><a routerLink="/technology">03 TECHNOLOGY</a></li>
+            <li>
+                <a routerLink="/home" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"> 00 HOME</a>
+            </li>
+            <li>
+                <a routerLink="/destination" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">01 DESTINATION</a>
+            </li>
+            <li>
+                <a routerLink="/crew" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">02 CREW</a>
+            </li>
+            <li>
+                <a routerLink="/technology" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">03 TECHNOLOGY</a>
+            </li>
         </ul>
     </nav>
 </header>
