@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {techData} from 'src/main'
 
 @Component({
   selector: 'app-launch-vehicle',
@@ -8,6 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class LaunchVehicleComponent implements OnInit {
 
   constructor() { }
+
+  currentData = techData[0]
+  techName = this.currentData.name;
+  description = this.currentData.description;
 
   ngOnInit(): void {
   }
