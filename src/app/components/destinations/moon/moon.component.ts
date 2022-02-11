@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {destinationsData} from 'src/main'
 
 @Component({
   selector: 'app-moon',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MoonComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+   }
+
+  
+   currentData = destinationsData[0];
+   moonDescription = this.currentData.description;
+   moonDistance = this.currentData.distance;
+   moonTravelTime = this.currentData.travel;
 
   ngOnInit(): void {
   }
