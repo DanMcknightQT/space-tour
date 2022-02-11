@@ -4,3 +4,42 @@
 	a regular object its only in json format for the 
 	purpose of giving us the data we dont have to 
 	keep it that way.
+
+-planets example:--------------------------------------------------------------------------------------------
+
+	-html file:
+	<ol style="display: flex; justify-content: space-around;">  
+		<li>
+			<button (click)="handlePlanetSelect('mars')">Mars</button>
+		</li>  
+		<li>
+			<button (click)="handlePlanetSelect('earth')">Earth</button>
+		</li>  
+		<li>
+			<button (click)="handlePlanetSelect('pluto')">Pluto</button>
+		</li>  
+		<li>
+			<button (click)="handlePlanetSelect('venus')">Venus</button>
+		</li>
+	</ol>
+	
+	<div id="comp-render" *ngIf="displayPlanet === 'mars'">  
+		<planet-pic></planet-pic>  
+		<app-mars></app-mars>
+	</div>
+	<div id="comp-render" *ngIf="displayPlanet === 'earth'">  
+		<app-earth></app-earth>
+	</div>
+	<div id="comp-render" *ngIf="displayPlanet === 'pluto'">  
+		<app-pluto></app-pluto>
+	</div>
+	<div id="comp-render" *ngIf="displayPlanet === 'venus'">  
+		<app-venus></app-venus>
+	</div>
+	
+	-ts file:
+	displayPlanet = "mars"  
+	handlePlanetSelect(planet: string){
+	    this.displayPlanet = planet  
+	}
+---------------------------------------------------------------------------------------------------------------
