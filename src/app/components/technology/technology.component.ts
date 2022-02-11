@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechnologyComponent implements OnInit {
 
+  displayTech = "Launch vehicle"  
+	handleTechSelect(tech: string){
+	  this.displayTech = tech  
+	}
+
   constructor() { }
 
   ngOnInit(): void {

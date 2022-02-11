@@ -1,4 +1,43 @@
 <div class="technology-body">
     <app-navbar></app-navbar>
-    <p>technology works!</p>
+    <section class="tech-main">
+        <div class="tech-info">
+            <h5><span class="03">03</span> SPACE LAUNCH 101</h5>
+            <div class="info-colums">
+                <nav class="tech-nav">
+                    <ul>
+                        <li>
+                            <button  id="tech1" class="tech-nav-btn" (click)="handleTechSelect('Launch vehicle')">1</button>
+                        </li>
+                        <li>
+                            <button id="tech2" class="tech-nav-btn" (click)="handleTechSelect('Spaceport')">2</button>
+                        </li>
+                        <li>
+                            <button id="tech3" class="tech-nav-btn" (click)="handleTechSelect('Space capsule')">3</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div *ngIf="displayTech === 'Launch vehicle'">  
+                    <p>1 test</p>
+                </div>
+                <div *ngIf="displayTech === 'Spaceport'">  
+                    <p>2 test</p>
+                </div>
+                <div *ngIf="displayTech === 'Space capsule'">  
+                    <p>3 test</p>
+                </div>
+            </div>
+        </div>
+        <div class="tech-img">
+            <div *ngIf="displayTech === 'Launch vehicle'">  
+                <p>1 test</p>
+            </div>
+            <div *ngIf="displayTech === 'Spaceport'">  
+                <p>2 test</p>
+            </div>
+            <div *ngIf="displayTech === 'Space capsule'">  
+                <p>3 test</p>
+            </div>
+        </div>
+    </section>
 </div>
