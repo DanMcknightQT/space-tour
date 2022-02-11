@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DestinationComponent implements OnInit {
 
+  displayPlanet = "Moon"  
+	handlePlanetSelect(planet: string){
+	  this.displayPlanet = planet  
+	}
+  
+
   constructor() { }
 
   ngOnInit(): void {

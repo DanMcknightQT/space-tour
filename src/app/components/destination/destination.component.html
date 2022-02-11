@@ -2,10 +2,48 @@
     <app-navbar></app-navbar>
     <section class="destination-main">
         <div class="destination-img">
-            <app-destination-img></app-destination-img>
+            <div *ngIf="displayPlanet === 'Moon'">  
+                <p>moon test</p>
+            </div>
+            <div *ngIf="displayPlanet === 'Mars'">  
+                <p>mars test</p>
+            </div>
+            <div *ngIf="displayPlanet === 'Europa'">  
+                <p>europa test</p>
+            </div>
+            <div *ngIf="displayPlanet === 'Titan'">  
+                <p>titan test</p>
+            </div>  
         </div>
         <div class="destination-info">
-            <app-destination-info></app-destination-info>
+            <nav class="destin-nav">
+                <ul>
+                    <li>
+                        <button id="Moon" (click)="handlePlanetSelect('Moon')">MOON</button>
+                    </li>
+                    <li>
+                        <button id="Mars" (click)="handlePlanetSelect('Mars')">MARS</button>
+                    </li>
+                    <li>
+                        <button id="Europa" (click)="handlePlanetSelect('Europa')">EUROPA</button>
+                    </li>
+                    <li>
+                        <button id="Titan" (click)="handlePlanetSelect('Titan')">TITAN</button>
+                    </li>
+                </ul>
+            </nav>
+            <div *ngIf="displayPlanet === 'Moon'">  
+                <p>moon test</p>
+            </div>
+            <div *ngIf="displayPlanet === 'Mars'">  
+                <p>mars test</p>
+            </div>
+            <div *ngIf="displayPlanet === 'Europa'">  
+                <p>europa test</p>
+            </div>
+            <div *ngIf="displayPlanet === 'Titan'">  
+                <p>titan test</p>
+            </div>
         </div>
     </section>
 </div>

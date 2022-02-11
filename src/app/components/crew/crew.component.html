@@ -1,5 +1,50 @@
 
 <div class="crew-body">
     <app-navbar></app-navbar>
-    <p>crew works!</p>
+    <section class="crew-main">
+        <div class="crew-info">
+            <div *ngIf="displayCrew === 'Douglas Hurley'">  
+                <p>doug test</p>
+            </div>
+            <div *ngIf="displayCrew === 'Mark Shuttleworth'">  
+                <p>mark test</p>
+            </div>
+            <div *ngIf="displayCrew === 'Victor Glover'">  
+                <p>victor test</p>
+            </div>
+            <div *ngIf="displayCrew === 'Anousheh Ansari'">  
+                <p>anous test</p>
+            </div>
+            <nav class="crew-nav">
+                <ul>
+                    <li>
+                        <button id="doug" (click)="handleCrewSelect('Douglas Hurley')"></button>
+                    </li>
+                    <li>
+                        <button id="mark" (click)="handleCrewSelect('Mark Shuttleworth')"></button>
+                    </li>
+                    <li>
+                        <button id="victor" (click)="handleCrewSelect('Victor Glover')"></button>
+                    </li>
+                    <li>
+                        <button id="anous" (click)="handleCrewSelect('Anousheh Ansari')"></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="crew-img">
+            <div *ngIf="displayCrew === 'Douglas Hurley'">  
+                <p>doug test</p>
+            </div>
+            <div *ngIf="displayCrew === 'Mark Shuttleworth'">  
+                <p>mark test</p>
+            </div>
+            <div *ngIf="displayCrew === 'Victor Glover'">  
+                <p>victor test</p>
+            </div>
+            <div *ngIf="displayCrew === 'Anousheh Ansari'">  
+                <p>anous test</p>
+            </div> 
+        </div>
+    </section>s
 </div>

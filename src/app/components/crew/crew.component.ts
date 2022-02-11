@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrewComponent implements OnInit {
 
+  displayCrew = "Douglas Hurley"  
+	handleCrewSelect(crew: string){
+	  this.displayCrew = crew  
+	}
+
   constructor() { }
 
   ngOnInit(): void {

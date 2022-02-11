@@ -11,9 +11,7 @@ import { CrewComponent } from './components/crew/crew.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { HomeInfoComponent } from './components/home-info/home-info.component';
 import { HomeBtnComponent } from './components/home-btn/home-btn.component';
-import { DestinationImgComponent } from './components/destination-img/destination-img.component';
-import { DestinationInfoComponent } from './components/destination-info/destination-info.component';
-import { DestinationNavComponent } from './components/destination-nav/destination-nav.component';
+
 
 
 
@@ -27,10 +25,7 @@ import { DestinationNavComponent } from './components/destination-nav/destinatio
     CrewComponent,
     TechnologyComponent,
     HomeInfoComponent,
-    HomeBtnComponent,
-    DestinationImgComponent,
-    DestinationInfoComponent,
-    DestinationNavComponent,
+    HomeBtnComponent
   ],
   imports: [
     BrowserModule,
