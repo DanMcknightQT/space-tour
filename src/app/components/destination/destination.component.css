@@ -1,4 +1,14 @@
 .destination-body{
     background-image: url("../../../assets/destination/background-destination-desktop.jpg");
     background-size: cover;
+    padding-top: 2rem;
+}
+.destination-main{
+    padding-top: 10rem;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8vw;
 }
