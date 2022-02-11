@@ -1,9 +1,10 @@
 .home-body{
     background-image: url("../../../assets/home/background-home-desktop.jpg");
-    object-fit: cover;
+    background-size: cover;
+    padding-top: 2rem;
 }
 .home-main{
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-left: 12vw;
     padding-right: 12vw;
     padding-bottom: 10rem;
