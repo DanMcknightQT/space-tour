@@ -10,9 +10,7 @@ import { CrewComponent } from './components/crew/crew.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { NoPageComponent } from './components/no-page/no-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { PickYourDestinationCardComponent } from './components/pick-your-destination-card/pick-your-destination-card.component';
-import { MeetYourCrewCardComponent } from './components/meet-your-crew-card/meet-your-crew-card.component';
-import { TechnologyCardComponent } from './components/technology-card/technology-card.component';
+
 
 
 @NgModule({
@@ -24,9 +22,7 @@ import { TechnologyCardComponent } from './components/technology-card/technology
     TechnologyComponent,
     NoPageComponent,
     NavbarComponent,
-    PickYourDestinationCardComponent,
-    MeetYourCrewCardComponent,
-    TechnologyCardComponent
+
   ],
   imports: [
     BrowserModule,
