@@ -10,7 +10,7 @@ export class SpacePortComponent implements OnInit {
 
   constructor() { }
 
-  currentData = techData[2]
+  currentData = techData[1]
   techName = this.currentData.name;
   description = this.currentData.description;
 

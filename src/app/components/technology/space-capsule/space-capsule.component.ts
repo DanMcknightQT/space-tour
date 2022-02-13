@@ -10,7 +10,7 @@ export class SpaceCapsuleComponent implements OnInit {
 
   constructor() { }
 
-  currentData = techData[1]
+  currentData = techData[2]
   techName = this.currentData.name;
   description = this.currentData.description;
 
