@@ -1,1 +1,13 @@
-<p>destination works!</p>
+
+<button type="button" name="button" (click)'getInfoFromService1()'>Student 1 Info
+</button>
+<button type="button" name="button" (click)'getInfoFromService2()'>Student 2 Info
+</button>
+<button type="button" name="button" (click)'getInfoFromService3()'>Student 3 Info
+</button>
+<ul class="listgroup">
+	<li *ngFor = "let information of StudentInfo1" class="list-group-info">
+
+	{{ information }}
+	</li>
+</ul>

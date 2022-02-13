@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { InfoService } from 'src/app/services/info.service';
 
 @Component({
   selector: 'app-home',
@@ -8,10 +7,7 @@ import { InfoService } from 'src/app/services/info.service';
     ['./home.component.css',
     '../../app.component.css'
     ],
-  providers: [InfoService]
 })
-
-
 
 export class HomeComponent implements OnInit {
 
@@ -21,3 +17,4 @@ export class HomeComponent implements OnInit {
   }
 
 }
+
