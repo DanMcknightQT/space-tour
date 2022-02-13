@@ -74,10 +74,14 @@
     }
 
     .crewImageContainer{
+        display: flex;
+        justify-content: center;
         align-self: center;
+        align-items: center;
         height: 223px;
-        width: 223px;
+        width: 327px;
         margin-bottom: 0px;
+        border-bottom: solid 1px gray;
     }
 
     .bodyText{
