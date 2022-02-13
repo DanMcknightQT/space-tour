@@ -61,3 +61,49 @@
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 375px){
+
+    .backgroundImg{
+        background-image: url("../../../assets/crew/background-crew-mobile.jpg");
+        background-size: 100%;
+        background-size: cover;
+        width: 375px;
+        height: 710px;
+    }
+
+    .headingFive{
+        font-size: 16px;
+        text-transform: uppercase;
+        align-self: center;
+        margin-left: 0px;
+        margin-top: 76px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .crewContainer{
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .crewList{
+    margin-left: 0px;
+    }
+
+    .crewListLink{
+        height: 15px;
+        width: 15px;
+        color: white;
+        border-radius: 50%;
+        border-style: none;
+        margin-right: 5px;
+        opacity: 0.4;
+        margin-top: 0px;
+    }
+
+
+}
