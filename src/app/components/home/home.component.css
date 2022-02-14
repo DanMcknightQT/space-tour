@@ -1,0 +1,7 @@
+.imageHolder {
+    display: flex;
+}
+
+#bkgdPic {
+    justify-self: right;
+}
