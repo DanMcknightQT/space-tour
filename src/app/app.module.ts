@@ -10,10 +10,6 @@ import { CrewComponent } from './components/crew/crew.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { NoPageComponent } from './components/no-page/no-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ExploreBtnComponent } from './components/buttons/explore-btn/explore-btn.component';
-import { SliderBtnComponent } from './components/buttons/slider-btn/slider-btn.component';
-import { TabsComponent } from './components/buttons/tabs/tabs.component';
-
 
 
 @NgModule({
@@ -25,9 +21,6 @@ import { TabsComponent } from './components/buttons/tabs/tabs.component';
     TechnologyComponent,
     NoPageComponent,
     NavbarComponent,
-    ExploreBtnComponent,
-    SliderBtnComponent,
-    TabsComponent,
 
   ],
   imports: [
