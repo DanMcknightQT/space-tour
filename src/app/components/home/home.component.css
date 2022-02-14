@@ -1,7 +1,14 @@
+/*
 .imageHolder {
-    display: flex;
-}
+    background-image: url("../../../assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+*/
 
-#bkgdPic {
-    justify-self: right;
+
+#pic {
+    background-image: url("../../../assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
