@@ -3,6 +3,17 @@
     <section class="tech-main">
         <div class="tech-info">
             <h5 class="imgHeaderNum"><span class="imgHeader">03</span> SPACE LAUNCH 101</h5>
+            <div class="tech-img-mobile">
+                <div *ngIf="displayTech === 'Launch vehicle'">  
+                    <app-launch-img></app-launch-img>
+                </div>
+                <div *ngIf="displayTech === 'Spaceport'">  
+                    <app-space-img></app-space-img>
+                </div>
+                <div *ngIf="displayTech === 'Space capsule'">  
+                    <app-space-cap-img></app-space-cap-img>
+                </div>
+            </div>
             <div class="info-colums">
                 <nav class="tech-nav">
                     <ul>

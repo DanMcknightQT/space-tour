@@ -46,3 +46,43 @@
     color: var(--black);
     background-color: var(--white);
 }
+.tech-img-mobile{
+    display: none;
+}
+@media only screen and (max-width: 376px) { 
+    .tech-main{
+        text-align: center;
+        padding: 10% 5% 10% 5%;
+        display: block;
+    }
+    .tech-img-mobile{
+        display: block;
+    }
+    .imgHeaderNum{
+        font-size: 16px;
+    }
+    .tech-img{
+        display:none;
+    }
+    .tech-nav ul li{
+        display: inline-block;
+        text-align: center;
+        padding: 0 10% 0 10%;
+    }
+    .tech-nav-btn{
+        margin-top: 3rem;
+        margin-bottom: .5rem;
+        height: 40px;
+        width: 40px;
+        background-color: transparent;
+        font-style: var(--Belle);
+        letter-spacing: 2;
+        font-size: 32px;
+        color: var(--white);
+        border-radius: 50%;
+        border: 1px solid var(--gray);
+    }
+    .info-colums{
+        display: block;
+    }
+ }

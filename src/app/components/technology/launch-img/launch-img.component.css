@@ -7,3 +7,17 @@
 img{
     float: right;
 }
+@media only screen and (max-width: 376px) { 
+    .landscapeImg{
+        display: block;
+        margin: 10% 0 10% 0;
+    }
+    .img-mobile{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .portraitImg{
+        display: none;
+    }
+ }
