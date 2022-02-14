@@ -43,6 +43,7 @@
         justify-content: space-between;
         width: 375px;
         margin-left: 0px;
+        padding-left: 0px;
     }
 
     .launchVehicleImg{
@@ -52,7 +53,7 @@
     .launchVehicleImgMobile{
         display: block;
         height: 170px;
-        width: 375px;
+        width: 355px;
         margin-left: 0px;
     }
 

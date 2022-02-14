@@ -3,3 +3,12 @@ body{
     margin: 0;
     background-color: black;
 }
+
+@media only screen and (max-width: 375px){
+
+    body{
+        width: 375px;
+    }
+
+}
+
