@@ -1,6 +1,7 @@
 .infoName{
     margin-top: 0;
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 .infoDes{
     margin-bottom: 2.5rem;
@@ -9,3 +10,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+@media only screen and (max-width: 376px) { 
+    .infoName{
+        font-size: 56px;
+    }
+    .travelInfo{
+        display: block;
+    }
+    .subheading2{
+        font-size: 14px;
+    }
+    .subheading1{
+        font-size: 28px;
+    }
+ }

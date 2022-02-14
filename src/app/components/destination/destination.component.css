@@ -31,3 +31,20 @@
 .active{
     border-bottom: 2px solid var(--white);
 }
+@media only screen and (max-width: 376px) { 
+    .destination-main{
+        display: block;
+        text-align: center;
+        padding: 10% 5% 10% 5%;
+    }.destin-nav{
+        margin-top: 10%;
+    }
+    .destin-nav ul{
+        margin-top: 0%;
+        justify-content: center;
+    }
+    .destination-info{
+        padding-top: 0;
+        margin-top: 0;
+    }
+ }
