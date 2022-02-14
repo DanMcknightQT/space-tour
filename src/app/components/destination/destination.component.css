@@ -12,11 +12,8 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 8vw;
 }
-.destination-img{
-    border: 3px solid white;
-}
-.destination-info{
-    border: 3px solid white;
+.destin-nav{
+    margin-top: 30%;
 }
 .destin-nav ul{
     padding-left: 0%;

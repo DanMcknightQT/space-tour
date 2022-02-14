@@ -7,21 +7,20 @@
 .tech-main{
     padding-top: 10rem;
     padding-left: 12vw;
-    padding-right: 12vw;
     padding-bottom: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 8vw;
-}
-.tech-img{
-    border: 3px solid white;
-}
-.tech-info{
-    border: 3px solid white;
 }
 .info-colums{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 5fr;
+}
+.imgHeaderNum{
+    margin-top: 0;
+    letter-spacing: 4.72px;
+}
+.tech-nav{
+    margin-top: 20%;
 }
 .tech-nav ul{
     padding-left: 0%;
@@ -29,7 +28,7 @@
     align-items: center;
 }
 .tech-nav-btn{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     height: 80px;
     width: 80px;
     background-color: transparent;
@@ -39,6 +38,9 @@
     color: var(--white);
     border-radius: 50%;
     border: 1px solid var(--gray);
+}
+.tech-nav button:hover{
+    border: 1px solid var(--white);
 }
 .active{
     color: var(--black);

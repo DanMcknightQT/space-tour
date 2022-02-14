@@ -2,6 +2,7 @@
     background-image: url("../../../assets/home/background-home-desktop.jpg");
     background-size: cover;
     padding-top: 2rem;
+    /* margin-bottom: 0; */
 }
 .home-main{
     padding-top: 10rem;

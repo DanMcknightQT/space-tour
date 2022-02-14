@@ -1,0 +1,11 @@
+.infoName{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.infoDes{
+    margin-bottom: 2.5rem;
+}
+.travelInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -43,9 +43,25 @@
     color: var(--gray);
     border-bottom: 3px solid var(--gray);
   }
-/* .header-nav ul li a:active {
-    border-bottom: 2px solid var(--white);
-  } */
-  .active{
-    border-bottom: 2px solid var(--white);
+.active{
+  border-bottom: 2px solid var(--white);
+}
+.hamburger{
+  display: none;
+}
+
+@media only screen and (max-width: 376px) { 
+  .header-nav{
+    display: none;
   }
+  .header-line{
+    display: none;
+  }
+  .hamburger{
+    display: inline;
+    margin-right: 5%;
+  }
+  
+}
+
+

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CrewImgComponent } from './crew-img.component';
+import { SpaceCapImgComponent } from './space-cap-img.component';
 
-describe('CrewImgComponent', () => {
-  let component: CrewImgComponent;
-  let fixture: ComponentFixture<CrewImgComponent>;
+describe('SpaceCapImgComponent', () => {
+  let component: SpaceCapImgComponent;
+  let fixture: ComponentFixture<SpaceCapImgComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CrewImgComponent ]
+      declarations: [ SpaceCapImgComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CrewImgComponent);
+    fixture = TestBed.createComponent(SpaceCapImgComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

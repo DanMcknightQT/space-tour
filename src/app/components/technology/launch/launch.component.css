@@ -1,0 +1,20 @@
+.terminology{
+    margin-top: 13%;
+    color: var(--gray);
+    font-size: 16px;
+    font-family: var(--barlow);
+    letter-spacing: 2.7px;
+    margin-bottom: 0;
+}
+.name{
+    font-family: var(--belle);
+    font-size: 56px;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.desc{
+    color: var(--gray);
+    font-size: 18px;
+    font-family: var(--barlow);
+}

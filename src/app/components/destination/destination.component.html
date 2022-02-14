@@ -3,16 +3,16 @@
     <section class="destination-main">
         <div class="destination-img">
             <div *ngIf="displayPlanet === 'Moon'">  
-                <p>moon test</p>
+                <app-moon-img></app-moon-img>
             </div>
             <div *ngIf="displayPlanet === 'Mars'">  
-                <p>mars test</p>
+                <app-mars-img></app-mars-img>
             </div>
             <div *ngIf="displayPlanet === 'Europa'">  
-                <p>europa test</p>
+                <app-europa-img></app-europa-img>
             </div>
             <div *ngIf="displayPlanet === 'Titan'">  
-                <p>titan test</p>
+                <app-titan-img></app-titan-img>
             </div>  
         </div>
         <div class="destination-info">
@@ -33,16 +33,16 @@
                 </ul>
             </nav>
             <div *ngIf="displayPlanet === 'Moon'">  
-                <p>moon test</p>
+                <app-moon></app-moon>
             </div>
             <div *ngIf="displayPlanet === 'Mars'">  
-                <p>mars test</p>
+                <app-mars></app-mars>
             </div>
             <div *ngIf="displayPlanet === 'Europa'">  
-                <p>europa test</p>
+                <app-europa></app-europa>
             </div>
             <div *ngIf="displayPlanet === 'Titan'">  
-                <p>titan test</p>
+                <app-titan></app-titan>
             </div>
         </div>
     </section>

@@ -1,0 +1,9 @@
+.landscapeImg{
+    display: none;
+}
+.portraitImg{
+    margin: auto 0 auto auto;
+}
+img{
+    float: right;
+}

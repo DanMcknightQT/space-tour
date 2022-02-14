@@ -65,3 +65,19 @@ p{
   font-size: 14px;
   letter-spacing: 2.35;
 }
+.imgHeader{
+  color: var(--gray);
+}
+.imgHeaderNum{
+  color: var(--white);
+}
+
+@media only screen and (max-width: 375px) { 
+  .header-nav{
+    display: none;
+  }
+  .header-line{
+    display: none;
+  }
+  
+}
