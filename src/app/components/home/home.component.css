@@ -11,3 +11,23 @@
     justify-content: space-between;
     margin-right: 150px;
 }
+
+@media only screen and (max-width: 375px){
+
+    .backgroundImg{
+        background-image: url("../../../assets/home/background-home-mobile.jpg");
+        background-size: 100%;
+        background-size: cover;
+        width: 375px;
+        height: 715px;
+    }
+
+    .homeContentContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column;
+        margin-right: 0px;
+    }
+
+}

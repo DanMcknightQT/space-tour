@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {crewData} from 'src/main'
 
 @Component({
   selector: 'app-anoushehansari',
@@ -8,6 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class AnoushehansariComponent implements OnInit {
 
   constructor() { }
+
+  currentData = crewData[3]
+  name = this.currentData.name;
+  role = this.currentData.role;
+  bio = this.currentData.bio;
+
 
   ngOnInit(): void {
   }

@@ -59,3 +59,70 @@
     border-radius: 50%;
     border: none;
 }
+
+@media only screen and (max-width: 375px){
+
+    .backgroundImg{
+        background-image: url("../../../assets/technology/background-technology-mobile.jpg");
+        background-size: 100%;
+        background-size: cover;
+        width: 375px;
+        height: 710px;
+    }
+
+    .headingFive{
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-left: 0px;
+        margin-top: 35px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .techContainer{
+        display: flex;
+        flex-flow: column;
+        margin-left: 0px;
+    }
+
+    .contentContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 375px;
+        height: 490px;
+        margin-left: 0px;
+    }
+
+    .techList{
+        list-style: none;
+        margin-right: 0px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .techListLink{
+        height: 40px;
+        width: 40px;
+        background-color: transparent;
+        margin-right: 5px;
+        border-radius: 50%;
+        border: solid gray 1px;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    .techListLink:hover{
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        border: none;
+    }
+    
+
+}

@@ -5,6 +5,10 @@
     width: 1100px;
 }
 
+.launchVehicleImgMobile{
+    display: none;
+}
+
 .launchVehicleInfo{
     height: 303px;
     width: 470px;
@@ -27,4 +31,55 @@
 .bodyText{
     font-size: 18px;
     color: white;
+}
+
+@media only screen and (max-width: 375px){
+
+    .launchVehicleContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        width: 375px;
+        margin-left: 0px;
+    }
+
+    .launchVehicleImg{
+        display: none;
+    }
+
+    .launchVehicleImgMobile{
+        display: block;
+        height: 170px;
+        width: 375px;
+        margin-left: 0px;
+    }
+
+    .launchVehicleInfo{
+        height: 220px;
+        width: 327px;
+        margin-bottom: 0px;
+        order: 1;
+        text-align: center;
+    }
+
+    .headingFive{
+        font-size: 14px;
+        opacity: 0.8;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .headingThree{
+        font-size: 24px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .bodyText{
+        font-size: 15px;
+        color: white;
+    }
+
 }

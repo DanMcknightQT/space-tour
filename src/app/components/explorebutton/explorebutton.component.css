@@ -14,3 +14,24 @@
     text-decoration: none;
     color: black;
 }
+
+@media only screen and (max-width: 376px){
+
+    .buttonContainer{
+        height: 150px;
+        width: 150px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .innerButtonText{
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+}

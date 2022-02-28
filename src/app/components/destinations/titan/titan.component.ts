@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {destinationsData} from 'src/main'
 
 @Component({
   selector: 'app-titan',
@@ -8,6 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class TitanComponent implements OnInit {
 
   constructor() { }
+
+  currentData = destinationsData[3];
+  titanDescription = this.currentData.description;
+  titanDistance = this.currentData.distance;
+  titanTravelTime = this.currentData.travel;
 
   ngOnInit(): void {
   }

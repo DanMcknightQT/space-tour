@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {destinationsData} from 'src/main'
 
 @Component({
   selector: 'app-mars',
@@ -8,6 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class MarsComponent implements OnInit {
 
   constructor() { }
+
+  currentData = destinationsData[1];
+   marsDescription = this.currentData.description;
+   marsDistance = this.currentData.distance;
+   marsTravelTime = this.currentData.travel;
 
   ngOnInit(): void {
   }

@@ -61,3 +61,48 @@
 .active{
     border-bottom: 2px white solid;
 }
+
+@media only screen and (max-width: 376px){
+    .navbarLine{
+        display: none;
+    }
+
+    .navNumbers{
+        display: none;
+    }
+
+    .navbarLinks{
+        list-style-type: none;
+        display: flex;
+        padding-right: 7px;
+        padding-left: 5px;
+        margin-right: 0px;
+        margin-left: 15px;
+        margin-top: 0px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(4px);
+        height: 75px;
+        width: 230px;
+    }
+
+    .navContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 40px;
+        width: 375px;
+    }
+
+    .navItem{
+        margin-right: 13px;
+        height: 75px;
+        font-size: 14px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+}

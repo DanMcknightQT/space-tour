@@ -2,6 +2,10 @@
     padding-top: 25px;
 }
 
+.moonMobileImg{
+    display: none;
+}
+
 .moonContainer{
     display: flex;
     justify-content: space-around;
@@ -47,4 +51,63 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+@media only screen and (max-width: 375px){
+
+    .moonImg{
+        display: none;
+    }
+
+    .moonMobileImg{
+        display: block;
+        width: 170px;
+        height: 170px;
+        align-self: center;
+    }
+
+    .moonContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .moonInfoContainer{
+        height: 409px;
+        width: 327px; 
+        margin-top: 0px;
+        text-align: center;  
+    }
+
+    .heading2{
+        color: white;
+        font-size: 56px;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+
+    .bodytext{
+        color: white;
+        font-size: 15px;
+        border-bottom: 1px white solid;
+        padding-bottom: 53px;
+    }
+    
+    .subText{
+        color: white;
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+
+    .statisticsNumbers{
+        color: white;
+        font-size: 28px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+
 }

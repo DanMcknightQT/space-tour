@@ -54,3 +54,44 @@
 .active{
     border-bottom: 1px white solid;
 }
+
+@media only screen and (max-width: 375px){
+
+    .contentContainer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+    }
+
+    .backgroundImg{
+        background-image: url("../../../assets/destination/background-destination-mobile.jpg");
+        background-size: 100%;
+        background-size: cover;
+        width: 375px;
+        height: 850px;
+    }
+
+    .headingFive{
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-left: 0px;
+        margin-top: 35px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .planetList{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 34px;
+        width: 285px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        order: 0;
+        padding-left: 0px;
+    }
+
+}
