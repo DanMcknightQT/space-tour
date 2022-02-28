@@ -1,0 +1,54 @@
+<div class="technology-body">
+    <app-navbar></app-navbar>
+    <section class="tech-main">
+        <div class="tech-info">
+            <h5 class="imgHeaderNum"><span class="imgHeader">03</span> SPACE LAUNCH 101</h5>
+            <div class="tech-img-mobile">
+                <div *ngIf="displayTech === 'Launch vehicle'">  
+                    <app-launch-img></app-launch-img>
+                </div>
+                <div *ngIf="displayTech === 'Spaceport'">  
+                    <app-space-img></app-space-img>
+                </div>
+                <div *ngIf="displayTech === 'Space capsule'">  
+                    <app-space-cap-img></app-space-cap-img>
+                </div>
+            </div>
+            <div class="info-colums">
+                <nav class="tech-nav">
+                    <ul>
+                        <li>
+                            <button  id="tech1" class="tech-nav-btn" (click)="handleTechSelect('Launch vehicle')">1</button>
+                        </li>
+                        <li>
+                            <button id="tech2" class="tech-nav-btn" (click)="handleTechSelect('Spaceport')">2</button>
+                        </li>
+                        <li>
+                            <button id="tech3" class="tech-nav-btn" (click)="handleTechSelect('Space capsule')">3</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div *ngIf="displayTech === 'Launch vehicle'">  
+                    <app-launch></app-launch>
+                </div>
+                <div *ngIf="displayTech === 'Spaceport'">  
+                    <app-space></app-space>
+                </div>
+                <div *ngIf="displayTech === 'Space capsule'">  
+                    <app-space-cap></app-space-cap>
+                </div>
+            </div>
+        </div>
+        <div class="tech-img">
+            <div *ngIf="displayTech === 'Launch vehicle'">  
+                <app-launch-img></app-launch-img>
+            </div>
+            <div *ngIf="displayTech === 'Spaceport'">  
+                <app-space-img></app-space-img>
+            </div>
+            <div *ngIf="displayTech === 'Space capsule'">  
+                <app-space-cap-img></app-space-cap-img>
+            </div>
+        </div>
+    </section>
+</div>

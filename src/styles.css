@@ -1,1 +1,83 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap");
+
+:root {
+    --black: #0b0d17;
+    --gray: #d0d6f9;
+    --white: #ffffff;
+    --Belle: "Bellefair";
+    --Barlow: "Barlow Condensed";
+  }
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--gray);
+}
+main {
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+h1{
+  font: var(--Belle);
+  color: var(--white);
+  font-size: 150px;
+  margin: 0%;
+}
+h2{
+  font: var(--Belle);
+  color: var(--white);
+  font-size: 100px;
+}
+h3{
+  font: var(--Belle);
+  color: var(--white);
+  font-size: 56px;
+}
+h4{
+  font: var(--Belle);
+  color: var(--white);
+  font-size: 32px;
+}
+h5{
+  font: var(--Barlow);
+  color: var(--gray);
+  font-size: 28px;
+  letter-spacing: 4.72;
+}
+p{
+  font: var(--Barlow);
+  font-size: 18px;
+  color: var(--gray);
+}
+.subheading1{
+  font: var(--Belle);
+  font-size: 28px;
+}
+.subheading2{
+  font: var(--Barlow);
+  font-size: 14px;
+  letter-spacing: 2.35;
+}
+.imgHeader{
+  color: var(--gray);
+}
+.imgHeaderNum{
+  color: var(--white);
+}
+
+@media only screen and (max-width: 375px) { 
+  .header-nav{
+    display: none;
+  }
+  .header-line{
+    display: none;
+  }
+  
+}

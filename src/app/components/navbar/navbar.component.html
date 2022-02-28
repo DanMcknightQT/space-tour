@@ -1,0 +1,32 @@
+<header class="header">
+    <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <g fill="none" fill-rule="evenodd">
+                <circle cx="24" cy="24" r="24" fill="#FFF"/>
+                <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 
+                23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/>
+            </g>
+        </svg>
+    </div>
+    <div class="header-line">
+    </div>
+    <nav class="header-nav">
+        <ul>
+            <li>
+                <a routerLink="/home" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"> 00 HOME</a>
+            </li>
+            <li>
+                <a routerLink="/destination" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">01 DESTINATION</a>
+            </li>
+            <li>
+                <a routerLink="/crew" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">02 CREW</a>
+            </li>
+            <li>
+                <a routerLink="/technology" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">03 TECHNOLOGY</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="hamburger" role="button" tabindex="1">
+        <img src="./assets/shared/icon-hamburger.svg" alt="icon" />
+    </div>
+</header>

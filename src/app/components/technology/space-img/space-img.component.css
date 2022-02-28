@@ -1,0 +1,23 @@
+.landscapeImg{
+    display: none;
+}
+.portraitImg{
+    margin: auto 0 auto auto;
+}
+img{
+    float: right;
+}
+@media only screen and (max-width: 1025px) { 
+    .landscapeImg{
+        display: block;
+        margin: 10% 0 10% 0;
+    }
+    .img-mobile{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .portraitImg{
+        display: none;
+    }
+ }

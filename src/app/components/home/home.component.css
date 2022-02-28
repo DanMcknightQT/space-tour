@@ -1,0 +1,26 @@
+.home-body{
+    background-image: url("../../../assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    padding-top: 2rem;
+}
+.home-main{
+    padding-top: 10rem;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8vw;
+}
+@media only screen and (max-width: 376px) { 
+    .home-body{
+        background-image: url("../../../assets/home/background-home-mobile.jpg");
+        background-size: cover;
+        padding-top: 2rem;
+    }
+    .home-main{
+        display: block;
+        text-align: center;
+        padding: 10% 5% 10% 5%;
+    }
+ }

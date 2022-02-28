@@ -1,0 +1,41 @@
+
+.crewInfo{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.roleInfo{
+    margin-bottom: 5%;
+    font-family: var(--Belle);
+    color: var(--white);
+    opacity: 70%;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.nameInfo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-size: 56px;
+}
+.mobile-header{
+    display: none;
+}
+@media only screen and (max-width: 376px) {
+    .desktop-header{
+        display: none;
+    }
+    .imgHeaderNum{
+        margin-bottom: 1rem;
+    }
+    .crewInfo{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .roleInfo{
+        margin: 0%;
+    }
+    .nameInfo{
+        font-size: 24px;
+    }
+ }

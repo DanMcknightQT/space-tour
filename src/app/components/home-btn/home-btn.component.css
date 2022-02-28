@@ -1,0 +1,23 @@
+.exploreBtn{
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 35%;
+    border: none;
+}
+.exploreBtn-text{
+    font-family: var(--Belle);
+    font-size: 32px;
+    letter-spacing: 2;
+    text-decoration: none;
+}
+@media only screen and (max-width: 376px) { 
+    .exploreBtn{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 10% auto 10% auto;
+        border: none;
+    }
+ }
