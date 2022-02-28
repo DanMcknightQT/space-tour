@@ -1,0 +1,25 @@
+#planet-navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.nav-text:hover{
+    border-bottom: 2px solid white;
+}
+.nav-text{
+    text-align: center;
+}
+@media only screen and (max-width: 500px){
+    #planet-navbar{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        gap: 30px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+}

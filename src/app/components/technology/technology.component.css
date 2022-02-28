@@ -1,0 +1,16 @@
+.container{
+    background-image: url(../../../assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+}
+@media only screen and (max-width: 500px){
+    .container{
+        background-image: url(../../../assets/technology/background-technology-mobile.jpg);
+        height: 100vh;
+        width: 100vw;
+    }
+    h5{
+        margin: 20px 0 30px 0;
+        text-align: center;
+        font-size: 16px;
+    }
+}

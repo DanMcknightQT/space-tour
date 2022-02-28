@@ -1,0 +1,11 @@
+#planet-picture{
+    padding: 0 0 0 90px;
+}
+@media (max-width:375px) {
+    #planet-picture{
+        padding: 0 0 0 85px;
+        margin-bottom: 35px;
+        width: 200px;
+        height: 200px;
+    }
+}

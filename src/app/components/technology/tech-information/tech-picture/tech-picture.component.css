@@ -1,0 +1,13 @@
+#tech-picture{
+    height: 400px;
+    width: 350px;
+    padding-left: 100px;
+}
+@media (max-width: 376px) {
+    #tech-picture{
+        margin-bottom: 35px;
+        width: 100vw;
+        height: 200px;
+        padding-left: 0;
+    }
+}

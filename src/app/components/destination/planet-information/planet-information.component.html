@@ -1,0 +1,25 @@
+<section class="component-content">
+    <div>
+        <app-planet-picture [picture]="planetImage"></app-planet-picture>
+    </div>
+    <div>
+        <app-planet-nav (outputData)="getData($event)"></app-planet-nav>
+        <h2>{{ planetName }}</h2>
+        <p class="text">{{ planetDescription }}</p>
+        <div id="destination-line">
+            <svg width="444" height="1" viewBox="0 0 444 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="444" height="1" fill="#383B4B"/>
+            </svg>
+        </div>
+        <section class="component-content">
+            <div>
+                <p class="subheading2"> Avg. Distance</p>
+                <p class="subheading1">{{ planetDistance }}</p>
+            </div>
+            <div>
+                <p class="subheading2"> est. travel time</p>
+                <p class="subheading1">{{ planetTravelTime }}</p>
+            </div>
+        </section>
+    </div>
+</section>    

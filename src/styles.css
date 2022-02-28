@@ -1,1 +1,116 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Main;
+    src: url(src/assets/fonts/Bellefair-Regular.ttf);
+}
+@font-face {
+    font-family: Secondary;
+    src: url(src/assets/fonts/BarlowCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: NavNumbers;
+    src: url(src/assets/fonts/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: BarlowRegular;
+    src: url(src/assets/fonts/Barlow-Regular.ttf);
+}
+:root{
+    --first-color: #0B0D17;
+    --second-color: #D0D6F9;
+    --third-color: #FFFFFF;
+}
+body{
+    margin: 0;
+    color: white;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.hover-change{
+    cursor: pointer;
+}
+.text{
+    font-family: BarlowRegular;
+    font-size: 18px;
+    margin: 0;
+    color: var(--second-color);
+}
+h1{
+    font-family: Main;
+    font-size: 150px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2{
+    font-family: Main;
+    font-size: 100px;
+    margin: 0;
+}
+h3{
+    font-family: Main;
+    font-size: 56px;
+}
+h4{
+    font-family: Main;
+    font-size: 32px;
+}
+h5{
+    font-family: Secondary;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.subheading1{
+    font-family: Main;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.subheading2{
+    font-family: Secondary;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    text-transform: uppercase;
+}
+.page-title{
+    margin-left: 160px;
+    margin-bottom: 30px;
+}
+#numbers{
+    font-family: NavNumbers;
+    opacity: 25%;
+}
+.component-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.nav-text{
+    font-family: Secondary;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 500px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .component-content{
+        display: flex;
+        flex-direction: column;
+    }
+}

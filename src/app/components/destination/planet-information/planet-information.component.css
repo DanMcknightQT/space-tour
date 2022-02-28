@@ -1,0 +1,32 @@
+#destination-line{
+    margin-top: 40px;
+}
+.text{
+    padding-right: 20px;
+}
+@media only screen and (max-width: 500px){
+    #destination-line{
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+    .subheading1{
+        margin-bottom: 0;
+    }
+    h2{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+        padding: 0 20px;
+    }
+    p{
+        text-align: center;
+    }
+    .subheading2{
+        margin-bottom: 1px;
+    }
+    .subheading1{
+        margin-top: 4px;
+    }
+}

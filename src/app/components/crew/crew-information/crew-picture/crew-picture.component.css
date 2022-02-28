@@ -1,0 +1,12 @@
+#crew-picture{
+    height: 450px;
+    margin-right: 10px;
+}
+@media (max-width:375px) {
+    #crew-picture{
+        height: 222px;
+        width: 177;
+        margin: 0;
+        padding: 20px 0 0 120px;
+    }
+}

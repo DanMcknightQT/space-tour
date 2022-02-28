@@ -1,0 +1,42 @@
+.container{
+    background-image: url(../../../assets/home/background-home-desktop.jpg);
+    background-size: cover;
+}
+#home-section-left{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#home-section-right{
+    padding-top: 10%;
+    padding-left: 25%;
+}
+@media only screen and (max-width: 500px){
+    .container{
+        background-image: url(../../../assets/home/background-home-mobile.jpg);
+        height: 100vh;
+        width: 100vw;
+    }
+    #home-section-left{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #home-section-right{
+        padding-top: 100px;
+        padding-left: 60px;
+    }
+    h1{
+        font-size: 80px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    h5{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .text{
+        text-align: center;
+        padding: 0 30px;
+    }
+}

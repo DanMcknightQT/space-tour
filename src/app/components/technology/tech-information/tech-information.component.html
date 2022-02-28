@@ -1,0 +1,15 @@
+<section class="wrapper">
+    <div class="wrapper">
+        <section>
+            <app-tech-nav (outputData)="getData($event)"></app-tech-nav>
+        </section>
+        <section>
+            <p class="nav-text">The Terminology...</p>
+            <h3>{{techName}}</h3>
+            <p class="text">{{techDescription}}</p>
+        </section>
+    </div>
+    <div>
+        <app-tech-picture [picture]="techImage"></app-tech-picture>
+    </div>
+</section>
