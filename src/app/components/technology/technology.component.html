@@ -1,0 +1,32 @@
+<div class="backgroundImg">
+
+    <div class="contentContainer">
+
+        <app-navbar></app-navbar>
+
+        <h5 class="headingFive"><span class="opacity">03</span>Space Launch 101</h5>
+
+        <div class="techContainer">
+
+        <ul class="techList">
+            <li class="techListItem"><button (click)="handleTechSelect('launchVehicle')" class="techListLink">1</button></li>
+            <li class="techListItem"><button (click)="handleTechSelect('spacePort')" class="techListLink">2</button></li>
+            <li class="techListItem"><button (click)="handleTechSelect('spaceCapsule')" class="techListLink">3</button></li>
+        </ul>
+        
+
+        <div class="techRender" *ngIf="displayTech === 'launchVehicle'">
+            <app-launch-vehicle></app-launch-vehicle>
+        </div>
+        <div class="techRender" *ngIf="displayTech === 'spacePort'">
+            <app-space-port></app-space-port>
+        </div>
+        <div class="techRender" *ngIf="displayTech === 'spaceCapsule'">
+            <app-space-capsule></app-space-capsule>
+        </div>
+
+        </div>
+
+    </div>
+
+</div>

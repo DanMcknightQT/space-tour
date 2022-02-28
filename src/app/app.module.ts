@@ -3,10 +3,48 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './components/home/home.component';
+import { DestinationsComponent } from './components/destinations/destinations.component';
+import { CrewComponent } from './components/crew/crew.component';
+import { TechnologyComponent } from './components/technology/technology.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
+import { HomedetailsComponent } from './components/homedetails/homedetails.component';
+import { ExplorebuttonComponent } from './components/explorebutton/explorebutton.component';
+import { MoonComponent } from './components/destinations/moon/moon.component';
+import { MarsComponent } from './components/destinations/mars/mars.component';
+import { EuropaComponent } from './components/destinations/europa/europa.component';
+import { TitanComponent } from './components/destinations/titan/titan.component';
+import { DouglashurleyComponent } from './components/crew/douglashurley/douglashurley.component';
+import { MarkshuttleworthComponent } from './components/crew/markshuttleworth/markshuttleworth.component';
+import { VictorgloverComponent } from './components/crew/victorglover/victorglover.component';
+import { AnoushehansariComponent } from './components/crew/anoushehansari/anoushehansari.component';
+import { LaunchVehicleComponent } from './components/technology/launch-vehicle/launch-vehicle.component';
+import { SpacePortComponent } from './components/technology/space-port/space-port.component';
+import { SpaceCapsuleComponent } from './components/technology/space-capsule/space-capsule.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    DestinationsComponent,
+    CrewComponent,
+    TechnologyComponent,
+    NavbarComponent,
+    NotfoundComponent,
+    HomedetailsComponent,
+    ExplorebuttonComponent,
+    MoonComponent,
+    MarsComponent,
+    EuropaComponent,
+    TitanComponent,
+    DouglashurleyComponent,
+    MarkshuttleworthComponent,
+    VictorgloverComponent,
+    AnoushehansariComponent,
+    LaunchVehicleComponent,
+    SpacePortComponent,
+    SpaceCapsuleComponent,
   ],
   imports: [
     BrowserModule,

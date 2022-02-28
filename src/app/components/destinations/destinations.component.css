@@ -1,0 +1,56 @@
+.backgroundImg{
+    background-image: url("../../../assets/destination/background-destination-desktop.jpg");
+    background-size: 100%;
+    background-size: cover;
+    width: 1440px;
+    height: 900px;
+}
+
+.headingFive{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 166px;
+    margin-top: 76px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opacity{
+    opacity: 0.2;
+    margin-right: 20px;
+}
+
+.planetList{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 34px;
+    width: 285px;
+    margin-left: 828px;
+    margin-bottom: 0px;
+}
+
+.planetListLink{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.planetListLink:hover{
+    border-bottom: solid 1px white;
+}
+
+.planetRender{
+    margin-top: 0px;
+}
+
+.active{
+    border-bottom: 1px white solid;
+}

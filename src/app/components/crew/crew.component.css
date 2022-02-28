@@ -1,0 +1,63 @@
+.backgroundImg{
+    background-image: url("../../../assets/crew/background-crew-desktop.jpg");
+    background-size: 100%;
+    background-size: cover;
+    width: 1440px;
+    height: 900px;
+}
+
+.headingFive{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 166px;
+    margin-top: 76px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opacity{
+    opacity: 0.2;
+    margin-right: 20px;
+}
+
+.crewRender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crewListLink{
+    height: 15px;
+    width: 15px;
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    margin-right: 5px;
+    opacity: 0.4;
+    margin-top: 150px;
+}
+
+.crewListLink:hover{
+    height: 15px;
+    width: 15px;
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+.crewList{
+    margin-left: 166px;
+}
+
+.crewContainer{
+    display: flex;
+    flex-direction: column;
+}

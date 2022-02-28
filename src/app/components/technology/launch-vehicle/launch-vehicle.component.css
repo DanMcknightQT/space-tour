@@ -1,0 +1,30 @@
+.launchVehicleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.launchVehicleInfo{
+    height: 303px;
+    width: 470px;
+    margin-bottom: 150px;
+}
+
+.headingFive{
+    font-size: 16px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    color: white;
+}
+
+.headingThree{
+    font-size: 56px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bodyText{
+    font-size: 18px;
+    color: white;
+}

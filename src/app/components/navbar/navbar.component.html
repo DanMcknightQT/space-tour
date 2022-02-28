@@ -1,0 +1,23 @@
+<div class="navContainer">
+
+    <svg class="starLogo" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+
+    <svg class="navbarLine" width="473" height="1" viewBox="0 0 473 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect opacity="0.251485" width="473" height="1" fill="white"/>
+        </svg>
+        
+    <ul class="navbarLinks">
+        <li class="navItem" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a href="" [routerLink]="['/home']" class="navlink"><span class="navNumbers">00</span> Home</a>
+        </li>
+        <li class="navItem" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+             <a href="" [routerLink]="['/destinations']" class="navlink"><span class="navNumbers">01</span> Destination</a>
+        </li>
+        <li class="navItem" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+             <a href="" [routerLink]="['/crew']" class="navlink"><span class="navNumbers">02</span> Crew</a>
+        </li>
+        <li class="navItem" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a href="" [routerLink]="['/technology']" class="navlink"><span class="navNumbers">03</span> Technology</a>
+        </li>
+    </ul>
+</div>

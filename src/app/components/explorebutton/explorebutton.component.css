@@ -1,0 +1,16 @@
+.buttonContainer{
+    height: 274px;
+    width: 274px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 395px;
+}
+
+.innerButtonText{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}

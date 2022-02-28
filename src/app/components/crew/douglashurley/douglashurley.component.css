@@ -1,0 +1,43 @@
+.crewmateContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crewImageContainer{
+    height: 406px;
+    width: 488px;
+}
+
+.crewImg{
+    height: 624px;
+    width: 488px;
+}
+.crewmateInfo{
+    height: 406px;
+    width: 488px;
+    margin-right: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.crewmateTitle{
+    color: white;
+    opacity: 0.8;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.crewmateName{
+    color: white;
+    font-size: 56px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.bodyText{
+    color: white;
+    font-size: 18px;
+}
